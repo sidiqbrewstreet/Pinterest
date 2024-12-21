@@ -94,6 +94,8 @@ if __name__ == '__main__':
         print('[*] 1 Link Bisa Dumps lebih dari 10.000 Foto')
         url = input('[?] Masukan Link Pinterest : ')
         print('')
+        print('  Tekan CTRL + C Untuk Berhenti  ')
+        print('')
         lo = Pinterest()
         lo.GetID(url=url)
         lo.GetHASH()
